@@ -20,13 +20,9 @@
 @font-face {
   font-family: "Gerbil";
   src: url("./assets/fonts/gerbil.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Satoshi";
-  src: url("/fonts/Satoshi-Variable.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
+  src: url("./assets/fonts/Satoshi-Variable.ttf") format("truetype");
 }
