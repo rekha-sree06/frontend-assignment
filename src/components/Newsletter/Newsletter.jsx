@@ -12,47 +12,57 @@ function Newsletter() {
 
   return (
     <section id="Contact" className="
-    pt-20">
+    lg:pt-20">
         <motion.div {...fadeIn}
                 className="
                     relative
-                    w-full
                     mx-auto
                     bg-[#D7EEDD]
                     flex
                     flex-col
                     items-center
 
-                    min-h-[450px]
+
+                    min-h-[250px]
+                    lg:min-h-[450px]
                 ">
                     <img src={doodle1} alt="" className="
                         absolute
+                        top-20
                         lg:top-45
+                        left-110
                         lg:left-325
+                        w-[40px]
+                        h-[50px]
                         lg:w-[140px]
                         lg:h-[145px]" />
                     <img src={doodle2} alt="" className="
                         absolute
+                        left-40
                         lg:left-137
+                        w-[55px]
+                        h-[35px]
                         lg:w-[125px]
                         lg:h-[75px]" />
                     <img src={doodle3} alt="" className="
                         absolute
+                        left-48
                         lg:left-155
+                        w-[55px]
+                        h-[35px]
                         lg:w-[125px]
                         lg:h-[75px]" />
                     <h1
                     className="
-                        w-full
+                        w-[300px]
                         lg:w-[640px]
-                        mx-auto
 
                         text-center
 
-                        text-[42px]
-                        sm:text-[64px]
+                        text-[30px]
                         lg:text-[70px]
-                        pt-20
+                        pt-10
+                        lg:pt-20
                         leading-[1.2]
                     "
                     >
@@ -65,8 +75,7 @@ function Newsletter() {
 
                         lg:w-[530px]
 
-                        text-[16px]
-                        sm:text-[20px]
+                        text-[10px]
                         lg:text-[17px]
 
                         leading-[1.5]
@@ -76,14 +85,18 @@ function Newsletter() {
                     </p>
                     <button 
                     className="
+                    w-[100px]
+                    h-[30px]
                     lg:w-[157px]
                     lg:h-[55px]
                     bg-[#000000]
                     p-1
                     text-[#FFFFFF]
-                    mt-10
+                    mt-6
+                    lg:mt-10
                     rounded-full
                     font-['Satoshi']
+                    text-[10px]
                     lg:text-[15px]
                     hover:scale-105
                     transition-all

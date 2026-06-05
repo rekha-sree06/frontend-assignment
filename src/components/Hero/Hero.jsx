@@ -22,7 +22,7 @@ function Hero() {
         transition: { duration: 1.2 },
     };    
 
-    const profileImage ="w-[150px] h-[150px] rounded-full object-cover";
+    const profileImage ="w-[60px] h:[60px] sm:w-[100px] sm:h-[100px] md:w-[130px] md:w-[130px] lg:w-[150px] lg:h-[150px] rounded-full object-cover";
 
     return (
         <section
@@ -46,57 +46,81 @@ function Hero() {
                     flex-col
                     items-center
 
-                    min-h-[1011px]
-
                 "
             >
                 <img src={underline} alt="" className="
                 absolute
-                lg:top-17
-                lg:w-[380px]
-                lg:h-[40px]" />
+                top-6
+                lg:top-13
+                w-[145px]
+                lg:w-[300px]
+                h-[15px]
+                lg:h-[30px]" />
                 <img src={doodle1} alt="" className="
                 absolute
-                lg:top-23
-                lg:left-223
-                lg:w-[260px]
-                lg:h-[90px]" />
+                top-9
+                lg:top-17
+                left-74
+                lg:left-213
+                w-[100px]
+                h-[33px]
+                lg:w-[210px]
+                lg:h-[70px]" />
                 <img src={doodle2} alt="" className="
                 absolute
-                lg:top-45
-                lg:left-115
-                lg:w-[280px]
-                lg:h-[70px]" />
+                top-17
+                lg:top-35
+                left-32
+                lg:left-130
+                w-[110px]
+                h-[30px]
+                lg:w-[210px]
+                lg:h-[60px]" />
                 <img src={doodle3} alt="" className="
                 absolute
-                lg:top-35
-                lg:left-305
+                top-12
+                lg:top-23
+                left-100
+                lg:left-300
+                w-[40px]
+                h-[40px]
                 lg:w-[80px]
                 lg:h-[85px]
                 -rotate-8" />
                 <img src={doodle4} alt="" className="
                 absolute
-                lg:top-58
+                top-22
+                -left-4
+                lg:top-47
                 lg:-left-12
+                w-[15px]
+                h-[110px]
                 lg:w-[50px]
                 lg:h-[250px]" />
                 <img src={doodle5} alt="" className="
                 absolute
-                lg:top-58
+                top-22
+                lg:top-47
                 lg:left-0
+                left-0
+                w-[15px]
+                h-[110px]
                 lg:w-[50px]
                 lg:h-[250px]" />
                 <h1
                 className="
-                    w-full
-                    max-w-[900px]
+                    w-[350px]
+                    sm:w-[500px]
+                    md:w-[700px]
+                    lg:w-[900px]max-w-[1000px]
                     mx-auto
 
                     text-center
 
-                    text-[42px]
-                    sm:text-[64px]
-                    lg:text-[65px]
+                    text-[25px]
+                    sm:text-[30px]
+                    md:text-[45px]
+                    lg:text-[50px]
                     relative
                     leading-[1.3]
                     z-10
@@ -119,10 +143,14 @@ function Hero() {
                         text-center
                         pt-4
 
+                        w-[280px]
+                        sm:w-[420px]
+                        md:w-[410px]
                         lg:w-[530px]
 
-                        text-[16px]
-                        sm:text-[20px]
+                        text-[8px]
+                        sm:text-[12px]
+                        md:w-[14px]
                         lg:text-[15px]
 
                         leading-[1.5]
@@ -136,7 +164,10 @@ function Hero() {
                     className={`
                         absolute 
                         left-0 
-                        top-[190px] 
+                        top-[75px]
+                        sm:top-[100px]
+                        md:top-[160px]
+                        lg:top-[190px] 
                         ${profileImage}
                     `}
                     />
@@ -145,8 +176,12 @@ function Hero() {
                     alt="member2"
                     className={`
                         absolute
-                        left-29
-                        top-[145px]
+                        left-11
+                        md:left-23
+                        lg:left-29
+                        top-[55px]
+                        md:top-[115px]
+                        lg:top-[145px]
                         outline-[1.5px]
                         outline-white
                         ${profileImage}
@@ -157,8 +192,11 @@ function Hero() {
                     alt="member3"
                     className={`
                         absolute
-                        left-106
-                        top-[60px]
+                        left-30
+                        lg:left-106
+                        top-[15px]
+                        md:top-[40px]
+                        lg:top-[60px]
                         ${profileImage}
                     `}
                     />
@@ -167,8 +205,10 @@ function Hero() {
                     alt="member4"
                     className={`
                         absolute
-                        left-132
-                        top-[215px]
+                        left-38
+                        lg:left-132
+                        top-[81px]
+                        lg:top-[215px]
                         ${profileImage}
                     `}
                     />
@@ -177,8 +217,10 @@ function Hero() {
                     alt="member5"
                     className={`
                         absolute
-                        left-192
-                        top-[90px]
+                        left-57
+                        lg:left-192
+                        top-[30px]
+                        lg:top-[90px]
                         ${profileImage}
                     `}
                     />
@@ -187,8 +229,10 @@ function Hero() {
                     alt="member6"
                     className={`
                         absolute
-                        left-223
-                        top-[160px]
+                        left-68
+                        lg:left-223
+                        top-[53px]
+                        lg:top-[160px]
                         ${profileImage}
                         outline-[1.5px]
                         outline-white
@@ -199,8 +243,10 @@ function Hero() {
                     alt="member7"
                     className={`
                         absolute
-                        left-274
-                        top-[60px]
+                        left-85
+                        lg:left-274
+                        top-[20px]
+                        lg:top-[60px]
                         ${profileImage}
                     `}
                     />
@@ -209,8 +255,10 @@ function Hero() {
                     alt="member8"
                     className={`
                         absolute
-                        left-315
-                        top-[180px]
+                        left-97
+                        lg:left-315
+                        top-[80px]
+                        lg:top-[180px]
                         ${profileImage}
                     `}
                     />

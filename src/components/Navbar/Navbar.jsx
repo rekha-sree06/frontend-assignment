@@ -84,9 +84,15 @@ function Navbar() {
       {/* Landing page */}
       <h2
         className={`
-          text-[26px]
+          text-[10px]
+          sm:text-[15px]
+          md:text-[20px]
+          lg:text-[26px]
 
           relative
+          left-2
+          sm:left-3
+          md:left-4
           lg:left-5
           leading-none
           transition-all duration-300
@@ -99,8 +105,7 @@ function Navbar() {
       <ul
         id="right-nav"
         className="
-          hidden
-          sm:flex
+          flex
 
           gap-5
           md:gap-6
@@ -108,7 +113,8 @@ function Navbar() {
 
           items-center
 
-          text-base
+          text-[6px]
+          sm:text-[10px]
           md:text-lg
           lg:text-[15px]
         "
@@ -138,9 +144,15 @@ function Navbar() {
         className="
           flex
           flex-col
-          gap-[5px]
+          gap-[2px]
+          sm:gap-[3px]
+          md:gap-[4px]
+          lg:gap-[5px]
           cursor-pointer
           relative
+          right-2
+          sm:right-3
+          md:right-4
           lg:right-5
         "
       >

@@ -18,81 +18,117 @@ function About() {
     }; 
 
   return (
-  <section id="Studio"  className="scroll-mt-24">
+  <section id="Studio"  className="mt-10 scroll-mt-15 lg:scroll-mt-24">
     <img src={doodle6} alt="" 
         className="
         absolute
-        mt-70
+        mt-18
+        lg:mt-70
+        left-12
         lg:left-80
+        w-[450px]
+        h-[250px]
         lg:w-[1150px]
         lg:h-[400px]" />
     <img src={doodle7} alt="" 
         className="
         absolute
-        mt-110
+        mt-53
+        lg:mt-110
+        left-7
         lg:left-42
+        w-[60px]
         lg:w-[170px]
+        h-[50px]
         lg:h-[150px]" />
     <motion.div {...fadeIn} className="flex justify-between items-center">
         <img src={doodle1} alt="" 
         className="
         absolute
-        pb-40
+        pb-30
+        lg:pb-40
+        left-25
         lg:left-100
+        w-[400px]
         lg:w-[700px]
+        h-[400px]
         lg:h-[700px]" />
         <img src={doodle2} alt="" 
         className="
         absolute
-        mb-47
+        mb-20
+        lg:mb-47
+        left-102
         lg:left-312
+        w-[70px]
+        h-[70px]
         lg:w-[150px]
         lg:h-[150px]" />
         <img src={doodle3} alt="" 
         className="
         absolute
-        mb-28
+        mb-17
+        lg:mb-28
+        left-9
         lg:left-50
+        w-[105px]
         lg:w-[200px]
+        h-[10px]
         lg:h-[20px]" />
         <img src={doodle4} alt="" 
         className="
         absolute
-        mb-16
+        mb-10
+        lg:mb-16
+        left-44.5
         lg:left-120
+        w-[60px]
         lg:w-[116px]
+        h-[20px]
         lg:h-[40px]" />
         <div className="
         relative
+        left-10
         lg:left-50
         flex
         flex-col
         z-20">
             <p className="
+            text-[15px]
             lg:text-[30px]
+            w-[200px]
             lg:w-[500px]">
                 Tomorrow should <br />be better than today
             </p>
             <p className="
             font-[Satoshi]
+            text-[10px]
             lg:text-[14px]
+            w-[275px]
             lg:w-[449px]
-            pt-4">
+            pt-1
+            lg:pt-4">
                 We are a team of strategists, designers communicators, researchers. 
                 Together, we believe that progress only happens when you refuse to play things safe.
             </p>
             <div className="
             font-[Satoshi]
+            text-[7px]
             lg:text-[12px]
-            pt-4
+            pt-2
+            lg:pt-4
             font-semibold
             flex
-            gap-4">
+            gap-2
+            lg:gap-4">
                 <p>Read more</p>
                 <img src={doodle5} alt="" 
                 className="
                 relative
-                mt-2
+                mt-1.5
+                lg:mt-2
+                w-[30px]
+                h-[2px]
                 lg:w-[60px]
                 lg:h-[5px]
                 hover:w-[70px]" />
@@ -101,9 +137,12 @@ function About() {
         <img src={person1} 
         alt="" 
         className="
-            w-[350px]
-            h-[350px]
+            w-[120px]
+            h-[120px]
+            lg:w-[420px]
+            lg:h-[420px]
             rounded-full
+            right-10
             lg:right-45
             relative
         "/>
@@ -112,32 +151,44 @@ function About() {
         <img src={person2} 
         alt="" 
         className="
-            w-[350px]
-            h-[350px]
+            w-[120px]
+            h-[120px]
+            lg:w-[420px]
+            lg:h-[420px]
             rounded-full
+            left-5
             lg:left-50
             relative
         "/>
         <img src={doodle4} alt="" 
             className="
             absolute
-            mb-39.5
+            mb-22
+            lg:mb-39.5
+            left-54.5
             lg:left-207.5
+            w-[48px]
             lg:w-[95px]
+            h-[20px]
             lg:h-[40px]" />
             <img src={doodle3} alt="" 
-        className="
-        absolute
-        mb-6.5
-        lg:left-250
-        lg:w-[200px]
-        lg:h-[20px]" />
+            className="
+            absolute
+            mb-5
+            lg:mb-6.5
+            left-75
+            lg:left-250
+            w-[100px]
+            lg:w-[200px]
+            h-[10px]
+            lg:h-[20px]" />
         <div className="
         relative
         lg:right-45
         flex
         flex-col">
             <p className="
+            text-[15px]
             lg:text-[30px]
             lg:w-[500px]">
                 See how we can <br />help you progress 
@@ -146,23 +197,32 @@ function About() {
             relative
             z-10
             font-[Satoshi]
+            text-[10px]
             lg:text-[14px]
+            w-[275px]
             lg:w-[449px]
-            pt-4">
+            pt-1
+            lg:pt-4">
                 We add a layer of fearless insights and action that allows change makers to accelerate their progress in areas such as brand, design digital, comms and social research.
             </p>
             <div className="
             font-[Satoshi]
+            text-[7px]
             lg:text-[12px]
-            pt-4
+            pt-2
+            lg:pt-4
             font-semibold
             flex
-            gap-4">
+            gap-2
+            lg:gap-4">
                 <p>Read more</p>
                 <img src={doodle5} alt="" 
                 className="
                 relative
-                mt-2
+                mt-1.5
+                lg:mt-2
+                w-[30px]
+                h-[2px]
                 lg:w-[60px]
                 lg:h-[5px]
                 hover:w-[70px]" />
@@ -170,8 +230,12 @@ function About() {
             <img src={doodle8} alt="" 
             className="
             absolute
+            -left-26
             lg:-left-100
-            mt-42
+            mt-20
+            lg:mt-42
+            w-[50px]
+            h-[40px]
             lg:w-[140px]
             lg:h-[120px]" />
         </div>

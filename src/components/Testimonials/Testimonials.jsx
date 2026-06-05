@@ -37,16 +37,27 @@ function Testimonials() {
                 <img src={doodle1} alt="" 
                     className="
                     absolute
+                    top-13
                     lg:top-26.5
+                    left-53
                     lg:left-172
+                    w-[140px]
+                    h-[10px]
                     lg:w-[300px]
                     lg:h-[20px]" />
                 <img src={doodle2} alt="" className="                            absolute
-                    lg:top-2                       lg:left-127
+                top-0
+                    lg:top-2  
+                    left-30                    
+                    lg:left-127
+                    w-[80px]
+                    h-[30px]
                     lg:w-[145px]
                     lg:h-[50px]" />
                 <p className="
+                text-[20px]
                 lg:text-[40px]
+                w-[300px]
                 lg:w-[500px]
                 text-center
                 relative
@@ -54,41 +65,66 @@ function Testimonials() {
                     What our customer says About Us
                 </p>
                 <img src={doodle3} alt="" className="                            absolute
-                    lg:top-53                      lg:left-125
+                top-22 
+                    lg:top-53    
+                    left-32                  
+                    lg:left-125
+                    w-[10px]
+                    h-[20px]
                     lg:w-[20px]
                     lg:h-[30px]" />
                 <img src={doodle3} alt="" className="                            absolute
-                    lg:top-53                      lg:left-119
+                top-22 
+                    lg:top-53
+                    left-35                      
+                    lg:left-119
+                    w-[10px]
+                    h-[20px]
                     lg:w-[20px]
                     lg:h-[30px]" />
                 <img src={doodle4} alt="" className="                            absolute
-                    lg:top-100                     lg:left-230
+                top-41
+                    lg:top-100
+                    left-78                     
+                    lg:left-230
+                    w-[10px]
+                    h-[20px]
                     lg:w-[20px]
                     lg:h-[30px]" />
                 <img src={doodle4} alt="" className="                            absolute
-                    lg:top-100                     lg:left-224
+                top-41
+                    lg:top-100                     
+                    lg:left-224
+                    left-81
+                    w-[10px]
+                    h-[20px]
                     lg:w-[20px]
                     lg:h-[30px]" />
                 <div
                     className="
-                        mt-13
+                    mt-4
+                        lg:mt-13
                         bg-[#D7EEDD]/30
                         rounded-[40px]
-                        w-[650px]
-                        h-[300px]
+                        w-[250px]
+                        h-[120px]
+                        lg:w-[650px]
+                        lg:h-[300px]
 
                         flex
                         items-center
                         justify-center
 
-                        px-19
+                        px-8
+                        lg:px-19
                     "
                     >
                     <p
                         className="
                         font-['Satoshi']
                         text-center
-                        text-[21px]
+                        text-[8px]
+                        lg:text-[21px]
                         leading-relaxed
                         "
                     >
@@ -97,51 +133,83 @@ function Testimonials() {
                 </div>
                 <img src={person3} alt="customer3" className="
                 absolute
+                w-[80px]
+                h-[80px]
                 lg:w-[170px]
                 lg:h-[170px]
+                left-10
                 lg:left-45
+                top-35
                 lg:top-60"/>
                 <img src={person8} alt="customer3" className="
                 absolute
+                w-[90px]
+                h-[90px]
                 lg:w-[220px]
                 lg:h-[220px]
+                left-100
                 lg:left-315
+                top-50
                 lg:top-85"/>
                 <img src={person7} alt="customer3" className="
                 absolute
+                w-[50px]
+                h-[50px]
                 lg:w-[100px]
                 lg:h-[100px]
+                left-95
                 lg:left-290
+                top-35
                 lg:top-55"/>
                 <img src={person6} alt="customer3" className="
                 absolute
+                w-[25px]
+                h-[25px]
                 lg:w-[70px]
                 lg:h-[70px]
+                left-96
                 lg:left-285
+                top-25
                 lg:top-25"/>
                 <img src={person5} alt="customer3" className="
                 absolute
+                w-[50px]
+                h-[50px]
                 lg:w-[110px]
                 lg:h-[110px]
+                left-105
                 lg:left-320
+                top-17
                 lg:top-10"/>
                 <img src={person1} alt="customer3" className="
                 absolute
+                w-[45px]
+                h-[45px]
                 lg:w-[100px]
                 lg:h-[100px]
+                left-7
                 lg:left-35
+                top-17
                 lg:top-5"/>
                 <img src={person2} alt="customer3" className="
                 absolute
+                w-[25px]
+                h-[25px]
                 lg:w-[60px]
                 lg:h-[60px]
+                left-3
                 lg:left-18
+                top-33
                 lg:top-50"/>
                 <img src={person4} alt="customer3" className="
                 absolute
+                w-[40px]
+                h-[40px]
                 lg:w-[100px]
                 lg:h-[100px]
+                left-2
                 lg:left-10
+                top-55
                 lg:top-100"/>
             </motion.div>
         </section>
