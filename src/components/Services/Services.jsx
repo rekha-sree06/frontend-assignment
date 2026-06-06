@@ -24,8 +24,8 @@ function Services() {
             alt=""
             className="
                 absolute
-                bottom-60
-                -right-2
+                bottom-53
+                -right-5
                 lg:bottom-105
                 lg:-right-10
 

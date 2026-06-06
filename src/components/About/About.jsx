@@ -19,7 +19,7 @@ function About() {
 
   return (
   <section id="Studio"  className="mt-10 scroll-mt-15 lg:scroll-mt-24">
-    <img src={doodle6} alt="" 
+    <motion.img {...fadeIn} src={doodle6} alt="" 
         className="
         absolute
         mt-18
@@ -30,12 +30,12 @@ function About() {
         h-[250px]
         lg:w-[1150px]
         lg:h-[400px]" />
-    <img src={doodle7} alt="" 
+    <motion.img src={doodle7} alt="" 
         className="
         absolute
-        mt-53
+        mt-52
         lg:mt-110
-        left-7
+        left-2
         lg:left-42
         w-[60px]
         lg:w-[170px]
@@ -46,34 +46,46 @@ function About() {
         className="
         absolute
         pb-30
+        sm:pb-35
         lg:pb-40
         left-25
+        sm:left-26
         lg:left-100
         w-[400px]
+        sm:w-[410px]
         lg:w-[700px]
         h-[400px]
+        sm:h-[420px]
         lg:h-[700px]" />
         <img src={doodle2} alt="" 
         className="
         absolute
-        mb-20
+        mb-18
+        sm:mb-26
         lg:mb-47
-        left-102
+        left-105
+        sm:left-141
         lg:left-312
-        w-[70px]
-        h-[70px]
+        w-[65px]
+        h-[65px]
+        sm:w-[80px]
+        sm:h-[80px]
         lg:w-[150px]
         lg:h-[150px]" />
         <img src={doodle3} alt="" 
         className="
         absolute
         mb-17
+        sm:mb-17
         lg:mb-28
         left-9
+        sm:left-10
         lg:left-50
         w-[105px]
+        sm:w-[110px]
         lg:w-[200px]
         h-[10px]
+        sm:h-[14px]
         lg:h-[20px]" />
         <img src={doodle4} alt="" 
         className="
@@ -95,8 +107,10 @@ function About() {
         z-20">
             <p className="
             text-[15px]
+            sm:text-[17px]
             lg:text-[30px]
             w-[200px]
+            sm:w-[240px]
             lg:w-[500px]">
                 Tomorrow should <br />be better than today
             </p>
@@ -105,6 +119,7 @@ function About() {
             text-[10px]
             lg:text-[14px]
             w-[275px]
+            sm:w-[300px]
             lg:w-[449px]
             pt-1
             lg:pt-4">
@@ -112,8 +127,10 @@ function About() {
                 Together, we believe that progress only happens when you refuse to play things safe.
             </p>
             <div className="
+            relative
             font-[Satoshi]
             text-[7px]
+            sm:text-[8px]
             lg:text-[12px]
             pt-2
             lg:pt-4
@@ -129,6 +146,8 @@ function About() {
                 lg:mt-2
                 w-[30px]
                 h-[2px]
+                sm:w-[35px]
+                sm:h-[3px]
                 lg:w-[60px]
                 lg:h-[5px]
                 hover:w-[70px]" />
@@ -139,6 +158,8 @@ function About() {
         className="
             w-[120px]
             h-[120px]
+            sm:w-[220px]
+            sm:h-[220px]
             lg:w-[420px]
             lg:h-[420px]
             rounded-full
@@ -153,6 +174,8 @@ function About() {
         className="
             w-[120px]
             h-[120px]
+            sm:w-[220px]
+            sm:h-[220px]
             lg:w-[420px]
             lg:h-[420px]
             rounded-full
@@ -188,8 +211,12 @@ function About() {
         flex
         flex-col">
             <p className="
+            relative
             text-[15px]
+            sm:text-[17px]
             lg:text-[30px]
+            sm:right-3
+            sm:w-[240px]
             lg:w-[500px]">
                 See how we can <br />help you progress 
             </p>
@@ -197,17 +224,22 @@ function About() {
             relative
             z-10
             font-[Satoshi]
+            sm:right-3
             text-[10px]
             lg:text-[14px]
             w-[275px]
+            sm:w-[300px]
             lg:w-[449px]
             pt-1
             lg:pt-4">
                 We add a layer of fearless insights and action that allows change makers to accelerate their progress in areas such as brand, design digital, comms and social research.
             </p>
             <div className="
+            relative
+            sm:right-3
             font-[Satoshi]
             text-[7px]
+            sm:text-[8px]
             lg:text-[12px]
             pt-2
             lg:pt-4
@@ -223,6 +255,8 @@ function About() {
                 lg:mt-2
                 w-[30px]
                 h-[2px]
+                sm:w-[35px]
+                sm:h-[3px]
                 lg:w-[60px]
                 lg:h-[5px]
                 hover:w-[70px]" />
@@ -230,7 +264,7 @@ function About() {
             <img src={doodle8} alt="" 
             className="
             absolute
-            -left-26
+            -left-32
             lg:-left-100
             mt-20
             lg:mt-42

@@ -65,49 +65,49 @@ function Testimonials() {
                     What our customer says About Us
                 </p>
                 <img src={doodle3} alt="" className="                            absolute
-                top-22 
+                top-24 
                     lg:top-53    
-                    left-32                  
+                    left-39                  
                     lg:left-125
                     w-[10px]
                     h-[20px]
                     lg:w-[20px]
                     lg:h-[30px]" />
                 <img src={doodle3} alt="" className="                            absolute
-                top-22 
+                top-24 
                     lg:top-53
-                    left-35                      
+                    left-36                      
                     lg:left-119
                     w-[10px]
                     h-[20px]
                     lg:w-[20px]
                     lg:h-[30px]" />
                 <img src={doodle4} alt="" className="                            absolute
-                top-41
+                top-48
                     lg:top-100
-                    left-78                     
+                    left-73                     
                     lg:left-230
                     w-[10px]
                     h-[20px]
                     lg:w-[20px]
                     lg:h-[30px]" />
                 <img src={doodle4} alt="" className="                            absolute
-                top-41
+                top-48
                     lg:top-100                     
                     lg:left-224
-                    left-81
+                    left-76
                     w-[10px]
                     h-[20px]
                     lg:w-[20px]
                     lg:h-[30px]" />
                 <div
                     className="
-                    mt-4
+                    mt-7
                         lg:mt-13
                         bg-[#D7EEDD]/30
                         rounded-[40px]
                         w-[250px]
-                        h-[120px]
+                        h-[135px]
                         lg:w-[650px]
                         lg:h-[300px]
 
@@ -123,7 +123,7 @@ function Testimonials() {
                         className="
                         font-['Satoshi']
                         text-center
-                        text-[8px]
+                        text-[9px]
                         lg:text-[21px]
                         leading-relaxed
                         "
