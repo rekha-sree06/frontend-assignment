@@ -23,14 +23,14 @@ function About() {
         className="
         absolute
         mt-26
-        sm:mt-43
+        sm:mt-44
         lg:mt-70
         left-15
-        sm:left-25
+        sm:left-23
         lg:left-80
         w-[460px]
         h-[250px]
-        sm:w-[550px]
+        sm:w-[555px]
         sm:h-[310px]
         lg:w-[1150px]
         lg:h-[400px]" />
@@ -38,7 +38,7 @@ function About() {
         className="
         absolute
         mt-58
-        sm:mt-80
+        sm:mt-79
         lg:mt-110
         left-2
         lg:left-42
@@ -68,10 +68,10 @@ function About() {
         className="
         absolute
         mb-19
-        sm:mb-26
+        sm:mb-27
         lg:mb-47
         left-104
-        sm:left-141
+        sm:left-138
         lg:left-312
         w-[65px]
         h-[65px]
@@ -83,7 +83,7 @@ function About() {
         className="
         absolute
         mb-14.5
-        sm:mb-17
+        sm:mb-16.5
         lg:mb-28
         left-9
         sm:left-10
@@ -92,19 +92,22 @@ function About() {
         sm:w-[152px]
         lg:w-[200px]
         h-[15px]
-        sm:h-[19px]
+        sm:h-[17px]
         lg:h-[20px]" />
         <img src={doodle4} alt="" 
         className="
         absolute
         mb-7
-        sm:mb-12
+        sm:mb-7
         lg:mb-16
         left-54
+        sm:left-65
         lg:left-120
         w-[75px]
+        sm:w-[88px]
         lg:w-[116px]
         h-[25px]
+        sm:h-[30px]
         lg:h-[40px]" />
         <div className="
         relative
@@ -125,6 +128,7 @@ function About() {
             <p className="
             font-[Satoshi]
             text-[8px]
+            sm:text-[10px]
             lg:text-[14px]
             w-[260px]
             sm:w-[300px]
@@ -195,21 +199,28 @@ function About() {
             className="
             absolute
             mb-22
+            sm:mb-25
             lg:mb-39.5
-            left-61
+            left-60
+            sm:left-78
             lg:left-207.5
             w-[56px]
+            sm:w-[70px]
             lg:w-[95px]
             h-[24px]
+            sm:h-[27px]
             lg:h-[40px]" />
             <img src={doodle3} alt="" 
             className="
             absolute
             mb-1
+            sm:mb-0
             lg:mb-6.5
             left-87
+            sm:left-110
             lg:left-250
             w-[120px]
+            sm:w-[150px]
             lg:w-[200px]
             h-[12px]
             lg:h-[20px]" />
@@ -232,6 +243,7 @@ function About() {
             z-10
             font-[Satoshi]
             text-[8px]
+            sm:text-[10px]
             lg:text-[14px]
             w-[250px]
             sm:w-[300px]
@@ -270,11 +282,15 @@ function About() {
             className="
             absolute
             -left-33
+            sm:-left-39
             lg:-left-100
             mt-21
+            sm:mt-28
             lg:mt-42
             w-[50px]
             h-[45px]
+            sm:w-[90px]
+            sm:h-[70px]
             lg:w-[140px]
             lg:h-[120px]" />
         </div>

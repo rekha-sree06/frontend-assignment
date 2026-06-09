@@ -29,37 +29,49 @@ function Newsletter() {
                     <img src={doodle1} alt="" className="
                         absolute
                         top-20
+                        sm:top-23
                         lg:top-45
                         left-110
+                        sm:left-140
                         lg:left-325
                         w-[40px]
                         h-[50px]
+                        sm:w-[65px]
+                        sm:h-[80px]
                         lg:w-[140px]
                         lg:h-[145px]" />
                     <img src={doodle2} alt="" className="
                         absolute
                         left-40
+                        sm:left-61
                         lg:left-137
                         w-[55px]
                         h-[35px]
+                        sm:w-[70px]
+                        sm:h-[40px]
                         lg:w-[125px]
                         lg:h-[75px]" />
                     <img src={doodle3} alt="" className="
                         absolute
                         left-48
+                        sm:left-50
                         lg:left-155
                         w-[55px]
                         h-[35px]
+                        sm:w-[70px]
+                        sm:w-[40px]
                         lg:w-[125px]
                         lg:h-[75px]" />
                     <h1
                     className="
                         w-[300px]
+                        sm:w-[400px]
                         lg:w-[640px]
 
                         text-center
 
                         text-[30px]
+                        sm:text-[40px]
                         lg:text-[70px]
                         pt-10
                         lg:pt-20
@@ -72,7 +84,8 @@ function Newsletter() {
                         mx-auto
                         text-center
                         pt-4
-
+                        sm:pt-3
+                        sm:w-[530px]
                         lg:w-[530px]
 
                         text-[10px]
