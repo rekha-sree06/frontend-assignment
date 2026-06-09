@@ -22,48 +22,55 @@ function About() {
     <motion.img {...fadeIn} src={doodle6} alt="" 
         className="
         absolute
-        mt-18
+        mt-26
+        sm:mt-43
         lg:mt-70
-        left-12
+        left-15
+        sm:left-25
         lg:left-80
-        w-[450px]
+        w-[460px]
         h-[250px]
+        sm:w-[550px]
+        sm:h-[310px]
         lg:w-[1150px]
         lg:h-[400px]" />
     <motion.img src={doodle7} alt="" 
         className="
         absolute
-        mt-52
+        mt-58
+        sm:mt-80
         lg:mt-110
         left-2
         lg:left-42
         w-[60px]
+        sm:w-[90px]
         lg:w-[170px]
         h-[50px]
+        sm:h-[70px]
         lg:h-[150px]" />
     <motion.div {...fadeIn} className="flex justify-between items-center">
         <img src={doodle1} alt="" 
         className="
         absolute
         pb-30
-        sm:pb-35
+        sm:pb-37
         lg:pb-40
-        left-25
-        sm:left-26
+        left-27
+        sm:left-35
         lg:left-100
-        w-[400px]
+        w-[350px]
         sm:w-[410px]
         lg:w-[700px]
-        h-[400px]
+        h-[350px]
         sm:h-[420px]
         lg:h-[700px]" />
         <img src={doodle2} alt="" 
         className="
         absolute
-        mb-18
+        mb-19
         sm:mb-26
         lg:mb-47
-        left-105
+        left-104
         sm:left-141
         lg:left-312
         w-[65px]
@@ -75,28 +82,29 @@ function About() {
         <img src={doodle3} alt="" 
         className="
         absolute
-        mb-17
+        mb-14.5
         sm:mb-17
         lg:mb-28
         left-9
         sm:left-10
         lg:left-50
-        w-[105px]
-        sm:w-[110px]
+        w-[128px]
+        sm:w-[152px]
         lg:w-[200px]
-        h-[10px]
-        sm:h-[14px]
+        h-[15px]
+        sm:h-[19px]
         lg:h-[20px]" />
         <img src={doodle4} alt="" 
         className="
         absolute
-        mb-10
+        mb-7
+        sm:mb-12
         lg:mb-16
-        left-44.5
+        left-54
         lg:left-120
-        w-[60px]
+        w-[75px]
         lg:w-[116px]
-        h-[20px]
+        h-[25px]
         lg:h-[40px]" />
         <div className="
         relative
@@ -106,19 +114,19 @@ function About() {
         flex-col
         z-20">
             <p className="
-            text-[15px]
-            sm:text-[17px]
+            text-[19px]
+            sm:text-[23.5px]
             lg:text-[30px]
-            w-[200px]
-            sm:w-[240px]
+            w-[250px]
+            sm:w-[330px]
             lg:w-[500px]">
                 Tomorrow should <br />be better than today
             </p>
             <p className="
             font-[Satoshi]
-            text-[10px]
+            text-[8px]
             lg:text-[14px]
-            w-[275px]
+            w-[260px]
             sm:w-[300px]
             lg:w-[449px]
             pt-1
@@ -129,7 +137,7 @@ function About() {
             <div className="
             relative
             font-[Satoshi]
-            text-[7px]
+            text-[6px]
             sm:text-[8px]
             lg:text-[12px]
             pt-2
@@ -142,9 +150,9 @@ function About() {
                 <img src={doodle5} alt="" 
                 className="
                 relative
-                mt-1.5
+                mt-1
                 lg:mt-2
-                w-[30px]
+                w-[25px]
                 h-[2px]
                 sm:w-[35px]
                 sm:h-[3px]
@@ -156,8 +164,8 @@ function About() {
         <img src={person1} 
         alt="" 
         className="
-            w-[120px]
-            h-[120px]
+            w-[140px]
+            h-[140px]
             sm:w-[220px]
             sm:h-[220px]
             lg:w-[420px]
@@ -172,8 +180,8 @@ function About() {
         <img src={person2} 
         alt="" 
         className="
-            w-[120px]
-            h-[120px]
+            w-[140px]
+            h-[140px]
             sm:w-[220px]
             sm:h-[220px]
             lg:w-[420px]
@@ -188,22 +196,22 @@ function About() {
             absolute
             mb-22
             lg:mb-39.5
-            left-54.5
+            left-61
             lg:left-207.5
-            w-[48px]
+            w-[56px]
             lg:w-[95px]
-            h-[20px]
+            h-[24px]
             lg:h-[40px]" />
             <img src={doodle3} alt="" 
             className="
             absolute
-            mb-5
+            mb-1
             lg:mb-6.5
-            left-75
+            left-87
             lg:left-250
-            w-[100px]
+            w-[120px]
             lg:w-[200px]
-            h-[10px]
+            h-[12px]
             lg:h-[20px]" />
         <div className="
         relative
@@ -211,12 +219,11 @@ function About() {
         flex
         flex-col">
             <p className="
-            relative
-            text-[15px]
-            sm:text-[17px]
+            text-[19px]
+            sm:text-[23.5px]
             lg:text-[30px]
-            sm:right-3
-            sm:w-[240px]
+            w-[250px]
+            sm:w-[330px]
             lg:w-[500px]">
                 See how we can <br />help you progress 
             </p>
@@ -224,10 +231,9 @@ function About() {
             relative
             z-10
             font-[Satoshi]
-            sm:right-3
-            text-[10px]
+            text-[8px]
             lg:text-[14px]
-            w-[275px]
+            w-[250px]
             sm:w-[300px]
             lg:w-[449px]
             pt-1
@@ -236,9 +242,8 @@ function About() {
             </p>
             <div className="
             relative
-            sm:right-3
             font-[Satoshi]
-            text-[7px]
+            text-[6px]
             sm:text-[8px]
             lg:text-[12px]
             pt-2
@@ -251,9 +256,9 @@ function About() {
                 <img src={doodle5} alt="" 
                 className="
                 relative
-                mt-1.5
+                mt-1
                 lg:mt-2
-                w-[30px]
+                w-[25px]
                 h-[2px]
                 sm:w-[35px]
                 sm:h-[3px]
@@ -264,12 +269,12 @@ function About() {
             <img src={doodle8} alt="" 
             className="
             absolute
-            -left-32
+            -left-33
             lg:-left-100
-            mt-20
+            mt-21
             lg:mt-42
             w-[50px]
-            h-[40px]
+            h-[45px]
             lg:w-[140px]
             lg:h-[120px]" />
         </div>
