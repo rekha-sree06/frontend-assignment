@@ -27,13 +27,16 @@ function Services() {
                 bottom-53
                 -right-5
                 sm:bottom-52
+                md:bottom-60
+                md:-right-1
                 lg:bottom-105
                 lg:-right-10
-
                 w-[250px]
                 h-[200px]
                 sm:w-[350px]
                 sm:h-[300px]
+                md:w-[380px]
+                md:h-[350px]
                 lg:w-[600px]
                 lg:h-[400px]
 
@@ -56,38 +59,47 @@ function Services() {
                     absolute
                     top-18
                     sm:top-23
+                    md:top-28.5
                     lg:top-38
                     -left-1
                     sm:-left-1
                     lg:-left-3
                     w-[95px]
                     sm:w-[126px]
+                    md:w-[150px]
                     lg:w-[220px]
                     h-[10px]
                     sm:h-[12px]
+                    md:h-[15px]
                     lg:h-[20px]" />
             <img src={doodle2} alt="" className="
                             absolute
                             top-2.5
                             sm:top-3.5
+                            md:top-4
                             lg:top-6
                             left-40
                             sm:left-51.5
+                            md:left-63
                             lg:left-85
                             w-[71px]
                             sm:w-[94px]
+                            md:w-[115px]
                             lg:w-[145px]
                             h-[28px]
                             sm:h-[31px]
+                            md:h-[40px]
                             lg:h-[50px]" />
             <div>
                 <h1 className="
                 w-[250px]
                 sm:w-[340px]
+                md:w-[370px]
                     lg:w-[650px]
 
                     text-[27px]
                     sm:text-[35px]
+                    md:text-[43px]
                     lg:text-[57px]
                     relative
                     z-10
@@ -95,7 +107,7 @@ function Services() {
                     What we can offer you!
                 </h1>
             </div>
-            <div className="border-t border-gray-300 mt-5 lg:mt-15 w-[470px] sm:w-[620px] lg:w-[1180px]" />
+            <div className="border-t border-gray-300 mt-5 lg:mt-15 w-[470px] sm:w-[620px] md:w-[754px] lg:w-[1180px]" />
             <div className="
             flex
             flex-col
@@ -104,6 +116,7 @@ function Services() {
             lg:pt-8
             w-[470px]
             sm:w-[620px]
+            md:w-[753px]
             lg:w-[1180px]">
                 <div className="
                 flex
@@ -113,8 +126,10 @@ function Services() {
                     font-['Satoshi']
                     w-[90px]
                     sm:w-[100px]
+                    md:w-[120px]
                     lg:w-[150px]
                     text-[10px]
+                    md:text-[13px]
                     lg:text-[18px]">
                         Office of multiple interest content
                     </p>
@@ -122,9 +137,11 @@ function Services() {
                     relative
                     -right-5
                     sm:right-2
+                    md:right-5
                     lg:right-0
                     text-[15px]
                     sm:text-[20px]
+                    md:text-[23px]
                     lg:text-[30px]">
                         Collaborative & partnership
                     </p>
@@ -134,6 +151,7 @@ function Services() {
                         mt-2
                         w-[40px]
                         sm:w-[45px]
+                        md:w-[55px]
                         lg:w-[60px]
                         h-[5px]
                         lg:h-[8px]" />
@@ -148,17 +166,21 @@ function Services() {
                     <p className="
                     font-['Satoshi']
                     w-[110px]
+                    md:w-[140px]
                     lg:w-[200px]
                     text-[10px]
+                    md:text-[13px]
                     lg:text-[18px]">
                         The hanger US Air force digital experimental
                     </p>
                     <p className="
                     relative
                     sm:right-5
+                    md:right-9
                     lg:right-9
                     text-[15px]
                     sm:text-[20px]
+                    md:text-[23px]
                     lg:text-[30px]">
                         We talk about our weight
                     </p>
@@ -168,6 +190,7 @@ function Services() {
                         mt-2
                         w-[40px]
                         sm:w-[45px]
+                        md:w-[55px]
                         lg:w-[60px]
                         h-[5px]
                         lg:h-[8px]" />
@@ -178,6 +201,8 @@ function Services() {
                     absolute
                     w-[56px]
                     h-[56px]
+                    md:w-[63px]
+                    md:h-[63px]
                     lg:w-[90px]
                     lg:h-[90px]
                     rounded-full
@@ -185,6 +210,8 @@ function Services() {
 
                     left-[378px]
                     top-[3px]
+                    md:left-[449px]
+                    md:top-[5px]
                     lg:left-[720px]
                     lg:top-[10px]
 
@@ -201,8 +228,10 @@ function Services() {
                         <p className="
                         font-['Satoshi']
                         w-[95px]
+                        md:w-[120px]
                         lg:w-[180px]
                         text-[10px]
+                        md:text-[13px]
                         lg:text-[18px]">
                             Delta faucet content, social, digital
                         </p>
@@ -210,9 +239,11 @@ function Services() {
                         relative
                         -right-2
                         sm:right-3
+                        md:right-6
                         lg:right-6
                         text-[15px]
                         sm:text-[20px]
+                        md:text-[23px]
                         lg:text-[30px]">
                             Piloting digital confidence
                         </p>
@@ -222,6 +253,7 @@ function Services() {
                         mt-2
                         w-[40px]
                         sm:w-[45px]
+                        md:w-[55px]
                         lg:w-[60px]
                         h-[5px]
                         lg:h-[8px]" />

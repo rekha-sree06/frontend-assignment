@@ -86,7 +86,7 @@ function Navbar() {
         className={`
           text-[10px]
           sm:text-[15px]
-          md:text-[20px]
+          md:text-[17px]
           lg:text-[26px]
 
           relative
@@ -115,7 +115,7 @@ function Navbar() {
 
           text-[6px]
           sm:text-[10px]
-          md:text-lg
+          md:text-[13px]
           lg:text-[15px]
         "
       >

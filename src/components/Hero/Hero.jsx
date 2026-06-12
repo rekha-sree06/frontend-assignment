@@ -22,7 +22,7 @@ function Hero() {
         transition: { duration: 1.2 },
     };    
 
-    const profileImage ="w-[60px] h:[60px] sm:w-[90px] sm:h-[90px] md:w-[130px] md:w-[130px] lg:w-[150px] lg:h-[150px] rounded-full object-cover";
+    const profileImage ="w-[60px] h:[60px] sm:w-[90px] sm:h-[90px] md:w-[100px] md:h-[100px] lg:w-[150px] lg:h-[150px] rounded-full object-cover";
 
     return (
         <section
@@ -52,51 +52,66 @@ function Hero() {
                 absolute
                 top-6
                 sm:top-8.5
+                md:top-10.5
                 lg:top-13
                 w-[145px]
                 sm:w-[180px]
+                md:w-[230px]
                 lg:w-[300px]
                 h-[15px]
                 sm:h-[18px]
+                md:h-[25px]
                 lg:h-[30px]" />
                 <img src={doodle1} alt="" className="
                 absolute
                 top-9
                 sm:top-12
+                md:top-14
                 lg:top-17
                 left-76
                 sm:left-96
+                md:left-116
                 lg:left-213
                 w-[100px]
                 h-[33px]
                 sm:w-[125px]
                 sm:h-[38px]
+                md:w-[165px]
+                md:h-[54px]
                 lg:w-[210px]
                 lg:h-[70px]" />
                 <img src={doodle2} alt="" className="
                 absolute
                 top-17
                 sm:top-22
+                md:top-27.5
                 lg:top-35
                 left-34
                 sm:left-42.5
+                md:left-49
                 lg:left-130
                 w-[110px]
                 h-[30px]
                 sm:w-[137px]
                 sm:h-[37px]
+                md:w-[175px]
+                md:h-[47px]
                 lg:w-[210px]
                 lg:h-[60px]" />
                 <img src={doodle3} alt="" className="
                 absolute
                 top-12
                 sm:top-17
+                md:top-20
                 lg:top-23
                 left-101
                 sm:left-133
+                md:left-160
                 lg:left-300
                 w-[40px]
                 h-[40px]
+                md:w-[53px]
+                md:h-[55px]
                 lg:w-[80px]
                 lg:h-[85px]
                 -rotate-8" />
@@ -105,34 +120,42 @@ function Hero() {
                 top-22
                 -left-4
                 sm:top-28
+                md:top-35
                 lg:top-47
                 sm:-left-8
+                md:-left-8
                 lg:-left-12
                 w-[15px]
                 h-[110px]
                 sm:w-[17px]
                 sm:h-[140px]
+                md:w-[20px]
+                md:h-[160px]
                 lg:w-[50px]
                 lg:h-[250px]" />
                 <img src={doodle5} alt="" className="
                 absolute
                 top-22
                 sm:top-28
+                md:top-35
                 lg:top-47
                 sm:-left-2
+                md:-left-3
                 lg:left-0
                 left-0
                 w-[15px]
                 h-[110px]
                 sm:w-[17px]
                 sm:h-[140px]
+                md:w-[20px]
+                md:h-[160px]
                 lg:w-[50px]
                 lg:h-[250px]" />
                 <h1
                 className="
                     w-[350px]
                     sm:w-[450px]
-                    md:w-[700px]
+                    md:w-[550px]
                     lg:w-[900px]max-w-[1000px]
                     mx-auto
 
@@ -140,7 +163,7 @@ function Hero() {
 
                     text-[25px]
                     sm:text-[32px]
-                    md:text-[45px]
+                    md:text-[40px]
                     lg:text-[50px]
                     relative
                     leading-[1.3]
@@ -166,7 +189,7 @@ function Hero() {
 
                         w-[280px]
                         sm:w-[350px]
-                        md:w-[410px]
+                        md:w-[350px]
                         lg:w-[530px]
 
                         text-[8px]
@@ -186,9 +209,10 @@ function Hero() {
                         absolute 
                         left-0 
                         sm:-left-5
+                        md:-left-6
                         top-[75px]
                         sm:top-[110px]
-                        md:top-[160px]
+                        md:top-[125px]
                         lg:top-[190px] 
                         ${profileImage}
                     `}
@@ -199,11 +223,11 @@ function Hero() {
                     className={`
                         absolute
                         left-11
-                        md:left-23
+                        md:left-12
                         lg:left-29
                         top-[55px]
                         sm:top-[81px]
-                        md:top-[115px]
+                        md:top-[90px]
                         lg:top-[145px]
                         outline-[1.5px]
                         outline-white
@@ -217,10 +241,11 @@ function Hero() {
                         absolute
                         left-30
                         sm:left-35
+                        md:left-45
                         lg:left-106
                         top-[15px]
                         sm:top-[13px]
-                        md:top-[40px]
+                        md:top-[30px]
                         lg:top-[60px]
                         ${profileImage}
                     `}
@@ -232,9 +257,11 @@ function Hero() {
                         absolute
                         left-38
                         sm:left-45
+                        md:left-57
                         lg:left-132
                         top-[81px]
                         sm:top-[120px]
+                        md:top-[135px]
                         lg:top-[215px]
                         ${profileImage}
                     `}
@@ -246,9 +273,11 @@ function Hero() {
                         absolute
                         left-57
                         sm:left-71
+                        md:left-88
                         lg:left-192
                         top-[30px]
                         sm:top-[40px]
+                        md:top-[52px]
                         lg:top-[90px]
                         ${profileImage}
                     `}
@@ -260,9 +289,11 @@ function Hero() {
                         absolute
                         left-68
                         sm:left-87
+                        md:left-106
                         lg:left-223
                         top-[53px]
                         sm:top-[80px]
+                        md:top-[90px]
                         lg:top-[160px]
                         ${profileImage}
                         outline-[1.5px]
@@ -276,8 +307,10 @@ function Hero() {
                         absolute
                         left-85
                         sm:left-112
+                        md:left-135
                         lg:left-274
                         top-[20px]
+                        md:top-[30px]
                         lg:top-[60px]
                         ${profileImage}
                     `}
@@ -289,9 +322,11 @@ function Hero() {
                         absolute
                         left-97
                         sm:left-127
+                        md:left-157
                         lg:left-315
                         top-[80px]
                         sm:top-[113px]
+                        md:top-[105px]
                         lg:top-[180px]
                         ${profileImage}
                     `}
